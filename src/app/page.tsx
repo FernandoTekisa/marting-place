@@ -1,8 +1,9 @@
 import About from "@/components/about"
+import Contact from "@/components/contact"
 import Hero from "@/components/hero"
 import Navbar from "@/components/navbar"
 import Services from "@/components/services"
-import { Contact } from "lucide-react"
+
 
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
         <About />
       </section>
       <section id="servicos" className="scroll-mt-16">
-        <Services />
+      <Services />
       </section>
       <section id="contato" className="scroll-mt-16">
         <Contact />
