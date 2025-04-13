@@ -62,7 +62,7 @@ export default function Contact() {
                   <Phone className="mt-1 h-5 w-5 text-primary" />
                   <div>
                     <h4 className="font-medium">Telefone</h4>
-                    <p className="text-gray-600">(11) 9999-9999</p>
+                    <p className="text-gray-600">(+244) 923-999-999</p>
                   </div>
                 </div>
 
@@ -71,9 +71,9 @@ export default function Contact() {
                   <div>
                     <h4 className="font-medium">Endereço</h4>
                     <p className="text-gray-600">
-                      Av. Paulista, 1000 - Bela Vista
+                      AV. Fidel de castro, rua 12
                       <br />
-                      São Paulo - SP, 01310-100
+                      Luanda - Kilamba-Kiaxe
                     </p>
                   </div>
                 </div>
