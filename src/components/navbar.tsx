@@ -4,6 +4,8 @@ import type React from "react";
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import logo from "@/image/logo.png"
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -68,7 +70,16 @@ export default function Navbar() {
       }`}
     >
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
-        <div className="text-xl font-bold">Logo</div>
+        <div className="w-[170px] h-auto">
+          <Image
+          src={logo}
+          alt="logo do site"
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="w-full h-auto"
+          />
+        </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:block">
